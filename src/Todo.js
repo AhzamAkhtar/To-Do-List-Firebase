@@ -59,7 +59,7 @@ function Todo(props) {
       <List>
         <ListItem>
           <ListItemAvatar></ListItemAvatar>
-          <ListItemText primary={props.todo.todo} secondary="Hurry Up ⏰ "/>
+          <ListItemText primary={props.todo.todo} secondary={props.todo.timestamp}/>
         </ListItem>
         <Button style={{marginLeft:"30px"}} variant="outlined" color="secondary" onClick={(e) => setOpen(true)}>Edit</Button>
         <div style={{marginLeft:"30px",marginTop:"5px"}}>

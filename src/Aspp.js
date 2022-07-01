@@ -55,8 +55,8 @@ function Aspp() {
           Add Todo
         </Button>
         <ul>  
-          {todos.map((todo,timestamp) => (
-            <Todo todo={todo} timestamp={timestamp} />
+          {todos.map((todo) => (
+            <Todo todo={todo}/>
           ))}
         </ul>
         </div>
